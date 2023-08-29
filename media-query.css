@@ -1,0 +1,31 @@
+/* mobile first approach */
+@media (min-width: 675px) {
+  nav .nav-content {
+    padding: 0 1rem;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav .nav-content ul {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .container-flex {
+    flex-direction: row;
+    align-items: flex-start;
+    /* gap: 1rem; */
+  }
+
+  main {
+    width: 70%;
+    padding: 0 1rem;
+  }
+
+  aside {
+    width: 30%;
+    padding: 0 1rem;
+  }
+}
